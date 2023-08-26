@@ -6,7 +6,15 @@ public class IfExample {
         int y = 20;
 
         if (x < y) {
-            System.out.println(x);
+            System.out.println("x is less then y");
+        }
+        x=x*2;
+        if (x==y){
+            System.out.println("x now equal to y");
+        }
+        x=x*2;
+        if (x>y){
+            System.out.println("x now greather then y");
         }
     }
 }
