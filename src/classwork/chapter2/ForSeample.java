@@ -1,6 +1,6 @@
 package classwork.chapter2;
 
-public class ForExample {
+public class ForSeample {
     public static void main(String[] args) {
         for (int i = 1; i <= 100; i++) {
             System.out.println(i + " poxos");

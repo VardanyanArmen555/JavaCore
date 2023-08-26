@@ -1,6 +1,6 @@
 package classwork.chapter2;
 
-public class IfExample {
+public class IfSeample {
     public static void main(String[] args) {
         int x = 10;
         int y = 20;
