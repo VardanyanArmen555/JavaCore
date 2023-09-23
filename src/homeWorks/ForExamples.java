@@ -1,6 +1,8 @@
 package homeWorks;
 
 public class ForExamples {
+
+    
     public static void main(String[] args) {
 //        Ex1
         for (int i = 0; i < 1000; i++) {

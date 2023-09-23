@@ -1,24 +1,26 @@
-package homeWorks;
+package homeWorks.figurePainter;
 
 public class FigurePainter {
-    public static void main(String[] args) {
-//        Painter1
-        for (int i = 0; i < 5; i++) {
+
+    void figureOne(int n, char c) {
+        for (int i = 0; i < n; i++) {
             for (int j = 0; j <= i; j++) {
-                System.out.print("* ");
+                System.out.print(c + " ");
             }
             System.out.println();
         }
+    }
 
-//        Painter2
+    void figureTwo() {
         for (int i = 5; i > 0; i--) {
-            for (int j = i; j > 0 ; j--) {
+            for (int j = i; j > 0; j--) {
                 System.out.print("* ");
             }
             System.out.println();
         }
+    }
 
-//        Painter3
+    void figureThree() {
         for (int i = 0; i < 5; i++) {
             for (int j = 5; j > i; j--) {
                 System.out.print("  ");
@@ -28,8 +30,9 @@ public class FigurePainter {
             }
             System.out.println();
         }
+    }
 
-//        Painter4
+    void figureFor() {
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < i; j++) {
                 System.out.print("  ");
@@ -39,6 +42,6 @@ public class FigurePainter {
             }
             System.out.println();
         }
-
     }
+
 }
