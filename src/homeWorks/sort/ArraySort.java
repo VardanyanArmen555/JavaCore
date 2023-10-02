@@ -1,8 +1,7 @@
 package homeWorks.sort;
 
 public class ArraySort {
-    public void sort() {
-        int[] numbers = {6, 4, 8, 2, 9, 10, 3, 7};
+    public void sort(int[] numbers) {
         for (int i = 0; i < numbers.length; i++) {
             for (int j = 1; j < numbers.length - i; j++) {
                 if (numbers[j - 1] > numbers[j]) {
@@ -13,9 +12,5 @@ public class ArraySort {
                 }
             }
         }
-        for (int number : numbers) {
-            System.out.print(number + " ");
-        }
-
     }
 }
