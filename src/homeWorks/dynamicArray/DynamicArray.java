@@ -69,6 +69,10 @@ public class DynamicArray {
         array[index] = value;
     }
 
+    int getSize (){
+        return size;
+    }
+
     boolean exists(int value) {
         for (int i = 0; i < size; i++) {
             if (array[i] == value) {
