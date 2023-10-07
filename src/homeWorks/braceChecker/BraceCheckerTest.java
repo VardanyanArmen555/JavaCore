@@ -6,6 +6,7 @@ public class BraceCheckerTest {
         String text = "H[[e{l[lo (Jav}}a}";
         BraceChecker braceChecker = new BraceChecker(text);
         braceChecker.check();
+
     }
 
 }
